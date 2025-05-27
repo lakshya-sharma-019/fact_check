@@ -78,7 +78,7 @@ const charCount = document.getElementById("charCount");
 textarea.addEventListener("input", () => {
     charCount.textContent = `${textarea.value.length} / 3000`;
 });
-const API_ENDPOINT = 'https://fact-check-backend.onrender.com/';
+const API_ENDPOINT = 'https://fact-check-backend.onrender.com';
 console.log(textarea.value)
 document.getElementById("AI_review_cta").addEventListener("click", async function (e) {
     e.preventDefault();
